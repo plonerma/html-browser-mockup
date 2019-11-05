@@ -1,0 +1,118 @@
+.browser-window {
+  position: relative;
+  display: inline-block;
+  transition: left 1s ease, top 1s ease; }
+  .browser-window .browser-bar {
+    position: relative; }
+    .browser-window .browser-bar .browser-bar-upper {
+      height: 37px;
+      position: relative;
+      background-color: #dedede;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-top: 1px solid #cbcbcb;
+      border-right: 1px solid #cbcbcb;
+      border-left: 1px solid #cbcbcb; }
+      .browser-window .browser-bar .browser-bar-upper .round-button {
+        width: 8px;
+        height: 8px;
+        border-radius: 12px;
+        margin-top: 14px;
+        display: inline-block; }
+        .browser-window .browser-bar .browser-bar-upper .round-button.red {
+          background-color: #fe6159;
+          border: 1px solid #f00d01;
+          margin-left: 12px; }
+          .browser-window .browser-bar .browser-bar-upper .round-button.red:hover {
+            background-color: #fe918c; }
+        .browser-window .browser-bar .browser-bar-upper .round-button.yellow {
+          background-color: #febf2f;
+          border: 1px solid #df9c01;
+          margin-left: 6px; }
+          .browser-window .browser-bar .browser-bar-upper .round-button.yellow:hover {
+            background-color: #fede95; }
+        .browser-window .browser-bar .browser-bar-upper .round-button.green {
+          background-color: #2acb42;
+          border: 1px solid #21a134;
+          margin-left: 6px; }
+          .browser-window .browser-bar .browser-bar-upper .round-button.green:hover {
+            background-color: #63df75; }
+      .browser-window .browser-bar .browser-bar-upper .browser-tab {
+        width: 186px;
+        position: absolute;
+        left: 73px;
+        bottom: -1px;
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-bottom: 26px solid #f4f4f4;
+        z-index: 101; }
+      .browser-window .browser-bar .browser-bar-upper .browser-tab-border {
+        width: 186px;
+        position: absolute;
+        left: 72px;
+        bottom: -1px;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 27px solid #9c9c9c;
+        z-index: 100; }
+    .browser-window .browser-bar .browser-bar-lower {
+      height: 37px;
+      position: relative;
+      background-color: #f4f4f4;
+      border-left: 1px solid #9c9c9c;
+      border-right: 1px solid #9c9c9c;
+      border-top: 1px solid #9c9c9c;
+      display: flex; }
+      .browser-window .browser-bar .browser-bar-lower .browser-controls-left {
+        flex: 0 0 93px; }
+        .browser-window .browser-bar .browser-bar-lower .browser-controls-left i {
+          font-size: 12px;
+          margin-top: 14px;
+          transition: all .2s ease; }
+          .browser-window .browser-bar .browser-bar-lower .browser-controls-left i.fa-arrow-left {
+            margin-left: 12px;
+            color: #6d6d6d; }
+            .browser-window .browser-bar .browser-bar-lower .browser-controls-left i.fa-arrow-left:hover {
+              color: #878787; }
+          .browser-window .browser-bar .browser-bar-lower .browser-controls-left i.fa-arrow-right {
+            margin-left: 5px;
+            color: #dedede; }
+            .browser-window .browser-bar .browser-bar-lower .browser-controls-left i.fa-arrow-right:hover {
+              color: #c5c5c5; }
+          .browser-window .browser-bar .browser-bar-lower .browser-controls-left i.fa-redo-alt {
+            margin-left: 8px;
+            color: #6d6d6d; }
+            .browser-window .browser-bar .browser-bar-lower .browser-controls-left i.fa-redo-alt:hover {
+              color: #878787; }
+      .browser-window .browser-bar .browser-bar-lower .browser-control-url {
+        flex: 1 1 80px; }
+        .browser-window .browser-bar .browser-bar-lower .browser-control-url .browser-url-field {
+          width: 100%;
+          height: 24px;
+          margin-top: 6px;
+          background-color: white;
+          border-radius: 4px;
+          border: 1px solid #b7b7b7;
+          transition: all .2s ease; }
+          .browser-window .browser-bar .browser-bar-lower .browser-control-url .browser-url-field:hover {
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); }
+      .browser-window .browser-bar .browser-bar-lower .browser-controls-right {
+        flex: 0 0 36px; }
+        .browser-window .browser-bar .browser-bar-lower .browser-controls-right .fa-ellipsis-v {
+          margin-left: 17px;
+          font-size: 12px;
+          margin-top: 12px;
+          color: #6d6d6d;
+          transition: all .2s ease; }
+          .browser-window .browser-bar .browser-bar-lower .browser-controls-right .fa-ellipsis-v:hover {
+            color: #878787; }
+  .browser-window .browser-content {
+    position: relative;
+    min-width: 300px;
+    width: 600px;
+    height: 400px;
+    border: 1px solid #9c9c9c;
+    background-color: #f5f5f5;
+    transition: width 1s ease, height 1s ease; }
+
+/*# sourceMappingURL=style.css.map */
